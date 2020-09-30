@@ -2,7 +2,7 @@
 node{
   stage('SCM Checout'){
    
-  git 'https://github.com/sidharthvijayakumar/FirstRepo'
+  git 'https://github.com/sidharthvijayakumar/FinalProj'
   }
   stage('Comiple-Package'){
      def mvnHome = tool name: 'Maven', type: 'maven'
